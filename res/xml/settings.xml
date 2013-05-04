@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+	<PreferenceCategory android:title="@string/settings_activity_title">
+		<CheckBoxPreference android:key="fullscreen"
+			android:title="@string/pref_fs_title" android:summary="@string/pref_fs_summ"
+			android:defaultValue="false" />
+		<ListPreference android:key="nsMode" android:title="@string/pref_ns_title"
+			android:summary="@string/pref_ns_summ" android:entries="@array/ns_n"
+			android:entryValues="@array/ns_v" android:defaultValue="@string/ns_v_d"
+			android:dialogTitle="@string/pref_ns_dialog"></ListPreference>
+		<ListPreference android:key="hou" android:title="@string/pref_hou_title"
+			android:summary="@string/pref_hou_summ" android:entries="@array/hou_n"
+			android:entryValues="@array/hou_v" android:defaultValue="@string/hou_v_d"
+			android:dialogTitle="@string/pref_hou_dialog"></ListPreference>
+	</PreferenceCategory>
+	<PreferenceCategory android:title="@string/s_g_timer_title">
+		<CheckBoxPreference android:key="timer_enable"
+			android:title="@string/s_g_timer_en_title" android:summary="@string/s_g_timer_en_summ"
+			android:defaultValue="false" />
+		<CheckBoxPreference android:key="timer_to_end"
+			android:title="@string/s_g_timer_to_title" android:summary="@string/s_g_timer_to_summ"
+			android:defaultValue="false" android:dependency="timer_enable" />
+		<ru.nim579.nixieclock.TimePickerPreference android:key="timer_picker"
+			android:title="@string/s_g_timer_pi_title" android:summary="@string/s_g_timer_pi_summ"
+			android:defaultValue="00:00" android:dependency="timer_to_end"></ru.nim579.nixieclock.TimePickerPreference>
+	</PreferenceCategory>
+</PreferenceScreen>

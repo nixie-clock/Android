@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/ab_m" android:title="@string/about_title" android:icon="@android:drawable/ic_menu_info_details"></item>
+    <item android:id="@+id/set_m" android:title="@string/settings_title" android:icon="@android:drawable/ic_menu_preferences"></item>
+    <item android:id="@+id/exit_m" android:title="@string/menu_exit" android:icon="@android:drawable/ic_menu_close_clear_cancel"></item>   
+</menu>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:layout_width="fill_parent"
+  android:layout_height="fill_parent" android:orientation="horizontal">
+    <TableLayout android:id="@+id/tableLayout1" android:layout_height="wrap_content" android:layout_width="wrap_content" android:layout_gravity="center_vertical" android:stretchColumns="*">
+        <TableRow android:id="@+id/tableRow2" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:text="H" android:id="@+id/txH" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#707070" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+            <TextView android:text="M" android:id="@+id/txM" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#707070" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+            <TextView android:text="S" android:id="@+id/txS" android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#707070" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_gravity="center"></TextView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bh4"></ImageView>
+            <ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bm4"></ImageView>
+            <ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bs4"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        	<ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bh3"></ImageView>
+        	<ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bm3"></ImageView>
+        	<ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bs3"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bh2"></ImageView>
+            <ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bm2"></ImageView>
+            <ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bs2"></ImageView>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        	<ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bh1"></ImageView>
+        	<ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bm1"></ImageView>
+        	<ImageView android:layout_height="150dp" android:layout_width="150dp" android:src="@drawable/s0" android:id="@+id/bs1"></ImageView>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

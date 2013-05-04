@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Nixie clock</string>
+    <dimen name="charB">20pt</dimen>
+    <dimen name="drwbl_main">100dp</dimen>
+    <dimen name="drwbl_ns">70dp</dimen>
+    <string name="about_text">
+    The program shows fancy nixie tube style clock in 9 numeral systems.\n\n
+    Developer: <b>Nim579</b> — <a href="nim@nim579.ru">nim@nim579.ru</a>\n
+    Author: <b>Alexey Elin</b> — <a href="alexey.elin@gmail.com">alexey.elin@gmail.com</a>\n\n
+    Project page: nim579.ru/android/nixie-clock.html (in Russian)\n
+    <i>Desktop screensaver versions are also available on project page</i>\n
+    </string>
+    <string name="about_version">
+    Last build date: <b>30.01.2012</b>\n
+    Version: <b>3.1</b>
+    </string>
+    <string name="general_ok">OK</string>
+    <string name="general_cancel">Cancel</string>
+    <string name="about_title">About</string>
+    <string name="settings_title">Settings</string>
+    <string name="settings_activity_title">Main settings</string>
+    <string name="menu_exit">Exit</string>
+    <string name="pref_fs_title">Full screen mode</string>
+    <string name="pref_fs_summ">Check the box to enable full screen mode</string>
+    <string name="pref_ns_title">Numeral system</string>
+    <string name="pref_ns_summ">Select the base of numeral system.</string>
+    <string name="pref_ns_dialog">Numeral system</string>
+    <string name="pref_hou_title">12/24 hour format</string>
+    <string name="pref_hou_summ">Select 12 or 24-hour format</string>
+    <string name="pref_hou_dialog">Time Format</string>
+    <string-array name="hou_n">
+        <item>24-hour clock</item>
+        <item>12-hour clock</item>
+    </string-array>
+    <string-array name="hou_v">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string name="hou_v_d">0</string>
+    <string-array name="ns_n">
+        <item>Decimal (base 10)</item>
+        <item>Binary (base 2)</item>
+        <item>Ternary (base 3)</item>
+        <item>Quaternary (base 4)</item>
+        <item>Quinary (base 5)</item>
+        <item>Senary (base 6)</item>
+        <item>Septenary (base 7)</item>
+        <item>Octal (base 8)</item>
+        <item>Nonary (base 9)</item>
+    </string-array>
+    <string-array name="ns_v">
+        <item>10</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string name="ns_v_d">10</string>
+    <string name="s_g_timer_title">Timer mode</string>
+    <string name="s_g_timer_en_title">Countdown timer</string>
+    <string name="s_g_timer_en_summ">Enable countdown to the end of the day (or specified time)</string>
+    <string name="s_g_timer_to_title">Сountdown to the specified time</string>
+    <string name="s_g_timer_to_summ">Specify the time to countdown to</string>
+    <string name="s_g_timer_pi_title">Countdown to:</string>
+    <string name="s_g_timer_pi_summ">Choose the time for countdown timer</string>
+    <string name="alert_timer_done">Timer done!</string>
+</resources>

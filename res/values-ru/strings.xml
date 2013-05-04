@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="about_text">
+    Программа отображает красивые часы в стиле газоразрядных индикаторов.\n\n
+    Разработчик: <b>Nim579</b> — <a href="nim@nim579.ru">nim@nim579.ru</a>\n
+    Автор: <b>Alexey Elin</b> — <a href="alexey.elin@gmail.com">alexey.elin@gmail.com</a>\n\n
+    Страница проекта: nim579.ru/android/nixie-clock.html \n
+    <i>На странице проекта вы найдете версии для других операционных систем!</i>\n
+    </string>
+    <string name="about_version">
+    Дата последнего обновления: <b>30.01.2012</b>\n
+    Версия: <b>3.1</b>
+    </string>
+    <string name="general_ok">ОК</string>
+    <string name="general_cancel">Отмена</string>
+    <string name="about_title">О программе</string>
+    <string name="settings_title">Настройки</string>
+    <string name="settings_activity_title">Основные настройки</string>
+    <string name="menu_exit">Выход</string>
+    <string name="pref_fs_title">В полный экран</string>
+    <string name="pref_fs_summ">Поставьте галочку, чтобы включить полноэкранный режим</string>
+    <string name="pref_ns_title">Система счисления</string>
+    <string name="pref_ns_summ">Выберите систему счисления, в которой будет отображаться время</string>
+    <string name="pref_ns_dialog">Система счисления</string>
+    <string name="pref_hou_title">24/12 часовой формат</string>
+    <string name="pref_hou_summ">Выберите формат, в котором вы хотели бы видеть отображение времени</string>
+    <string name="pref_hou_dialog">Часовой формат</string>
+    <string-array name="hou_n">
+        <item>24 часа</item>
+        <item>12 часов</item>
+    </string-array>
+    <string-array name="ns_n">
+        <item>(10) Десятичная</item>
+        <item>(2) Двоичная</item>
+        <item>(3) Троичная</item>
+        <item>(4) Четверичная</item>
+        <item>(5) Пятеричная</item>
+        <item>(6) Шестеричная</item>
+        <item>(7) Семеричная</item>
+        <item>(8) Восьмеричная</item>
+        <item>(9) Девятеричная</item>
+    </string-array>
+    <string name="s_g_timer_title">Режим таймера</string>
+    <string name="s_g_timer_en_title">Отсчет времени</string>
+    <string name="s_g_timer_en_summ">Включает отсчет времени до конца дня (или заданого времени)</string>
+    <string name="s_g_timer_to_title">Отсчитывать время до</string>
+    <string name="s_g_timer_to_summ">Включить выбор времени, до которого будет производиться отсчет</string>
+    <string name="s_g_timer_pi_title">Выбрать время</string>
+    <string name="s_g_timer_pi_summ">Выбираем время до которого будет производиться отсчет</string>
+    <string name="alert_timer_done">Время вышло!</string>
+</resources>
