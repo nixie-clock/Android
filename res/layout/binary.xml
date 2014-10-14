@@ -15,9 +15,9 @@
             <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs6"></ImageView>
         </TableRow>
         <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh5"></ImageView>
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bm5"></ImageView>
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs5"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh5"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bm5"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs5"></ImageView>
         </TableRow>
         <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh4"></ImageView>
@@ -25,9 +25,9 @@
             <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs4"></ImageView>
         </TableRow>
         <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh3"></ImageView>
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bm3"></ImageView>
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs3"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh3"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bm3"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs3"></ImageView>
         </TableRow>
         <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
             <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh2"></ImageView>
@@ -35,9 +35,9 @@
             <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs2"></ImageView>
         </TableRow>
         <TableRow android:id="@+id/tableRow1" android:layout_gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent">
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh1"></ImageView>
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bm1"></ImageView>
-        	<ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs1"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bh1"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bm1"></ImageView>
+            <ImageView android:layout_height="@dimen/drwbl_ns" android:layout_width="@dimen/drwbl_ns" android:src="@drawable/s0" android:id="@+id/bs1"></ImageView>
         </TableRow>
     </TableLayout>
 </LinearLayout>
